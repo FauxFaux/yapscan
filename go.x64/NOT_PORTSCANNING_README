@@ -1,0 +1,12 @@
+I do not believe I am illegally port-scanning.  I am attempting to determine a list of machines on the entire internet (yes, really) that are running with HTTPS.  This is one request per machine.
+
+My eventual aim is to reproduce https://www.eff.org/observatory
+
+Yes, I realise it probably looks like a syn-flood; it is rate-limited at 1mbit/s to prevent flooding this end, and only hitting one machine at a time on the other end (which they won't even notice).
+
+Specifically, not violating the AUP (http://aws.amazon.com/aup/), which quotes:
+
+Unauthorized Access. Accessing or using any System without permission, including attempting to probe, scan, or test the vulnerability of a System or to breach any security or authentication measures used by a System.
+
+Nor the security document (http://aws.amazon.com/articles/1697):
+Port Scanning: Port scans by Amazon EC2 customers are a violation of the Amazon EC2 Acceptable Use Policy (AUP). Violations of the AUP are taken seriously, and every reported violation is investigated.
